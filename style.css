@@ -1,0 +1,34 @@
+.papabox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* text-align: center; */
+    gap: 5px;
+
+}
+
+.box {
+    background: rgb(112, 26, 26);
+    border-radius: 10px;
+    box-shadow: 19px 40px 18px rgba(0, 0, 0, 0.2);
+    width: 400px;
+}
+
+.flexitems {
+    display: flex;
+    justify-content: space-between;
+}
+
+.discount {
+    color: rgb(185, 251, 103);
+}
+
+label,
+h2 {
+    color: white;
+}
+
+.cart {
+    background-color: green;
+    color: aliceblue;
+}
